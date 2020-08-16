@@ -1,32 +1,36 @@
 .App {
   text-align: center;
 }
+#root{
+  /* display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.pokemon{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top:100px;
+
+}
+.pokemon-card{
+  width: 250px;
+  height:250px;
+  text-align:center;
+  background: lightgray;
+  margin:20px
+
+}
+.poke-name{
+  color: blue
+}
+  .header{
+    text-align:center
+
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
